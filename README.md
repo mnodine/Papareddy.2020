@@ -17,7 +17,7 @@ Required softwares: You will need the following software:
 9. FastQC (fastqc/0.11.8-java-1.8) and  
 9. nextflow (nextflow/19.10.0)
 
-And the following files: 1. FASTA file of reference genome (ftp://ftp.ensemblgenomes.org/pub/plants/release- 44/fasta/arabidopsis_thaliana/dna/) 3. BEDfile of TAIR10 TEs thats are classified as class A/Euchromatic or class B/Heterochromatic(Not include yet, will be released soon or on request).<br/>
+And the following files: 1. FASTA file of reference genome (ftp://ftp.ensemblgenomes.org/pub/plants/release- 44/fasta/arabidopsis_thaliana/dna/) 2. BEDfile of TAIR10 TEs thats are classified as class A/Euchromatic or class B/Heterochromatic(Not include yet, will be released soon or on request).<br/>
 <br/>
 Dependency scripts and files for sRNA analyses as part of nextflow from our lab are in the folder sRNA_assets.
 
