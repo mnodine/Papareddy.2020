@@ -24,7 +24,7 @@ This procedure was performed for the 25 sRNA-seq datasets generated as part of t
 ### Running nextflow pipeline
 This pipline can be exicuted by running the command:
 __nextflow run main.nf__
-"additional parameters setting included to change input file path, output file path and desired 3 prime adaptor sequences to be trimmed"
+*additional parameters setting included to change input file path, output file path and desired 3 prime adaptor sequences to be trimmed*
 __--file 'PATH/TO/FASTQ/__
 __--output 'PATH/TO/OUTPT/RESULTS/'__
 __--adapt 'ADAPTORSEQUENCE'__
