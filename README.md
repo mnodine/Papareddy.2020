@@ -37,6 +37,7 @@ Differentially methylated regions (DMRs) were defined using Methylpy as describe
 
 __Nextflow pipeline combining Bismark (for MethylC-seq read Mapping) and Methylpy (for DMR calling and other useful miscellaneous) as done in this manuscript is under construction__<br/>
 Meanwhile you look into following Git pages for details<br/>
+<br/>
 * https://github.com/FelixKrueger/TrimGalore
 * https://github.com/FelixKrueger/Bismark
 * https://github.com/yupenghe/methylpy
