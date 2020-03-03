@@ -20,7 +20,7 @@ Required softwares: You will need the following software:
 And the following files: 1. FASTA file of reference genome (ftp://ftp.ensemblgenomes.org/pub/plants/release- 44/fasta/arabidopsis_thaliana/dna/) 3. BEDfile of TAIR10 TEs thats are classified as class A/Euchromatic or class B/Heterochromatic(include;TEs.siRNA.clusterID.sorted).
 Dependency scripts and files for sRNA analyses as part of nextflow from our lab are in the folder sRNA_assets.
 
-This procedure was performed for the 25 sRNA-seq datasets generated as part of this study and all the analysed public;y availabile datasets described in sheet1 of dataset Table_S1_Mapping_stats.xlxs. 
+This procedure was performed for the 25 sRNA-seq datasets generated as part of this study and all the analysed publicly availabile datasets described in sheet1 of dataset Table_S1_Mapping_stats.xlxs. 
 
 ### Running nextflow pipeline
 This pipline can be exicuted by running the command: <br/>
