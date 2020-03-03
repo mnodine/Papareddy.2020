@@ -22,12 +22,12 @@ And the following files: 1. FASTA file of reference genome (ftp://ftp.ensemblgen
 This procedure was performed for the 25 sRNA-seq datasets generated as part of this study and all the analysed public;y availabile datasets described in sheet1 of dataset Table_S1_Mapping_stats.xlxs. 
 
 ### Running nextflow pipeline
-This pipline can be exicuted by running the command:
-__nextflow run main.nf__
-*additional parameters setting included to change input file path, output file path and desired 3 prime adaptor sequences to be trimmed*
-__--file 'PATH/TO/FASTQ/__
-__--output 'PATH/TO/OUTPT/RESULTS/'__
-__--adapt 'ADAPTORSEQUENCE'__
+This pipline can be exicuted by running the command:<br/>
+__nextflow run main.nf__<br/>
+*Additional parameters setting included to change input file path, output file path and desired 3 prime adaptor sequences to be trimmed*<br/>
+__--file 'PATH/TO/FASTQ/__<br/>
+__--output 'PATH/TO/OUTPT/RESULTS/'__<br/>
+__--adapt 'ADAPTORSEQUENCE'__<br/>
 
 ## MethylC-Seq analysis!
 Sequenced reads were trimmed using Trim Galore with default settings. In addition, the first six bases of each read were removed to exclude the random hexamer portion of the read used during the preamplification step. After quality filtering and adaptor trimming, bisulfite-converted reads were aligned against the TAIR10 genome (Lamesch et al., 2012) using Bismark (bismark --non_directional -q --score-min L,0,-0.4) (Krueger and Andrews, 2011). BAM files containing clonalonly deduplicated and uniquely mappedping reads were then used as input for the Methylpy software (https://bitbucket.org/schultzmattd/methylpy) to extract weighted methylation rate at each cytosine as previously described (Schultz et al., 2015). Bisulfite conversion rates were calculated using the unmethylated chloroplast genome or spiked-in unmethylated Lambda phage DNA (European Nucleotide Archive Accession Number J02459, Promega catalog number D1521) controls.
