@@ -41,3 +41,7 @@ Meanwhile you look into following Git pages for details<br/>
 * https://github.com/FelixKrueger/TrimGalore
 * https://github.com/FelixKrueger/Bismark
 * https://github.com/yupenghe/methylpy
+
+## RNA-Seq analysis
+Please my other repository <br/>
+* https://github.com/Papareddy/rna_seq_kallisto1
