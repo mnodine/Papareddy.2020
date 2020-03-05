@@ -44,4 +44,4 @@ Meanwhile you look into following Git pages for details<br/>
 
 ## RNA-Seq analysis
 Please visit my other repository <br/>
-* https://github.com/Papareddy/rna_seq_kallisto1
+* https://github.com/Papareddy/RNAseq_kallisto-STAR
