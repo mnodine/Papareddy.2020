@@ -7,6 +7,8 @@ For the convineant inspection of data by general researchers/Users 24nt sRNA sco
 
 2) Embryonic datasets:
 
-As part of the study to identify the uniqueness of embryonic 24mer sRNA population almost hundred publicly available datasets were analysed in the same way as datasets generated from our lab, using this same nextflow pipeline.
+This folder contains almost hundred publicly available datasets analysed as part of the study to identify the uniqueness of embryonic 24mer sRNA population.
 
-Except 
+Publicly datasets were also analysed in the same way as datasets generated from our lab, using this same nextflow pipeline and BigWig files of 24nt siRNA scores were presented.
+
+
