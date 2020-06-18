@@ -1,0 +1,10 @@
+This folder contains processed bigwig files for all 24nt-siRNA and methylation datasets investigated in this study (Both Public and our lab generated datasets).
+
+Bigwig files are  readily available when the repository is git cloned.
+
+Wig file wih four columns (column1 - chromosome without chr prefix; column2 - start position; column3 - end position; column 4 - sRNA/mCHH score)was converted to BigWig file with UCSC wigToBigWig command.
+
+These BigWig files can be directly loaded into  The Integrative Genomics Viewer (IGV browser) or any other methylation web based browsers, such as :
+
+* AnnoJ browser (http://neomorph.salk.edu/1001.aj.php)
+* Plant methylome browser from Bob Schmitz lab (http://epigenome.genetics.uga.edu/PlantMethylome/)
