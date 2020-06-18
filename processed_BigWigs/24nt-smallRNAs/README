@@ -1,0 +1,12 @@
+In this folder, there are two subfolders:
+
+1) Embryonic datasets:
+This folder contains 24nt siRNA BigWig files from Wild type embryonic developmental series ,floral bud, leaf, and mutant embryonic and leaf datasets that are essential for the core message delivered in this paper. 
+
+For the convineant inspection of data by general researchers/Users 24nt sRNA scores from bilogical triplicates were fooled into a sing BigWig file (FYI: Individual replicates are submitted to GEO).
+
+2) Embryonic datasets:
+
+As part of the study to identify the uniqueness of embryonic 24mer sRNA population almost hundred publicly available datasets were analysed in the same way as datasets generated from our lab, using this same nextflow pipeline.
+
+Except 
