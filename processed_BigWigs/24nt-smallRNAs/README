@@ -1,14 +1,9 @@
 In this folder, there are two subfolders:-
 
 1) Embryonic datasets:
-This folder contains 24nt siRNA BigWig files from Wild type and mutant  embryonic developmental series ,floral bud and leaf datasets that are essential for the core message delivered in this paper. 
+This folder contains BigWig files of 24-nt siRNAs from wild type and mutant embryo, floral bud and leaf datasets. Datasets from biological triplicates were pooled into a single BigWig file for convienence during genome browsing (FYI: Individual replicates can be found on NCBI GEO: GSE152971).
 
-For the convineant inspection of data by general researchers/Users 24nt sRNA scores from bilogical triplicates were fooled into a sing BigWig file (FYI: Individual replicates are submitted to GEO).
-
-2) Embryonic datasets:
-
-This folder contains almost hundred publicly available datasets analysed as part of the study to identify the uniqueness of embryonic 24mer sRNA population.
-
-Publicly datasets were also analysed in the same way as datasets generated from our lab, using this same nextflow pipeline and BigWig files of 24nt siRNA scores were presented.
+2) Public datasets:
+This folder contains almost one hundred publicly available datasets analysed as part of this study to identify the uniqueness of the embryonic 24-nt sRNA population. These publicly available datasets were analyzed in the same way as the datasets generated from our lab and processed through the same nextflow pipeline and production of BigWig files.
 
 
