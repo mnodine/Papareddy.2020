@@ -1,8 +1,4 @@
 
-24nt siRNAs cotranscriptionally synthesised by RNA Pol IV and RDR2 (~25-30nt) and are robustly diced in 24mers by DICERs. 
-These 25-30nt precursors are trancient and not seen in WT sRNAseq libraries but can be seen  when DICERS are mutated.
+24-nt siRNAs are cotranscriptionally synthesised by RNA Pol IV and RDR2 to generate >25 bp RNA:RNA duplexes that are then robustly diced into 24mers by DICER-LIKE 3. Accordingly, these >25-nt precursors are transient and not observed in wild-type sRNAseq libraries but can be seen when multiple DICER-LIKE genes are mutated (e.g. dcl2/3/4 triple mutants). Therefore, these precursors can serve as a proxy for RNA Pol IV actively transcribing the precursors of 24-nt siRNAs.
 
-These precursors can serve as a proxy to see active RNA Pol IV mediated transcription of 24nt siRNAs.
-
-These BigWig Files have scores of 25-30nt sRNA normalized RPM from dcl234 mutant Leaf, Early heart and floral bud samples.
-All Generated from the lab
+These BigWig Files have 25-30 nt sRNA levels normalized for library depth (i.e. reads per million genome-matching reads; RPM) from dcl2/3/4 mutant leaf, early heart and floral bud samples.
