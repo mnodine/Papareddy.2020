@@ -1,1 +1,5 @@
 
+Methylation data from datasets generated in this study and publicly available resources (marked as "publicdatasets" as part of bigwig file name)
+referenced in the manuscript.
+
+For size contrans with Git. BigWig files of mCHH at 5bp resolution were uploaded. For all Cytosine tsv file and single base pair resolution please visit the GEO GSE152971
